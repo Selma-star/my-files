@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<title>freeCodeCamp Survey Form</title>
+<link rel="stylesheet" href="styles3.css" />
+ </head>
+  <body>
+   <div class="container"> 
+     <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+     </header>
+    <form id="survey-form">
+
+  <div class="group-form">
+ <label id="name-label" >Name</label><input id="name" type="text" placeholder="Enter your name" required /> 
+ </div>
+
+ <div class="group-form">
+  <label id="email-label" >Email</label><input id="email" type="email" placeholder="Enter your Email"  required /> 
+  </div>
+
+  <div class="group-form">
+  <label id="number-label" >Age
+<span>(optional)</span></label><input id="number" type="number" min="13" max="120" placeholder="Age"  /> 
+</div>
+
+<div class="group-form" >
+<label for="dropdown">Which option best describes your current role?
+       </label>   <select id="dropdown" name="select">
+            <option value="">Select Current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="4">Other</option>
+          </select>
+        
+        </div>
+        <div class="group-form" >
+<legend>Would you recommend freeCodeCamp to a friend?</legend>
+
+<label id="sys"><input value="test1" name="test" type="radio" id="defenitely" checked >Definitely</label>
+<label id="sys"><input type="radio" value="test2" name="test" id="maybe" >Maybe</label>
+<label id="sys"><input type="radio" value="test3"  name="test" id="not sure" >Not sure</label>   </div>
+
+        <div class="group-form" >
+<label for="dropdown">What is your favorite feature of freeCodeCamp? </label>
+          <select id="dropdown" name="select">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+            </select>
+       
+        </div>
+ <div class="group-form" >
+<legend>What would you like to see improved?<span> (Check all that apply)</span></legend>
+<input type="checkbox" value="checkbox1" >Front-end Projects
+</input><br> <input type="checkbox" value="checkbox2" >Back-end Projects</input> <br> 
+<input type="checkbox" value="checkbox3" >Data Visualization</input><br> 
+<input type="checkbox" value="checkbox4" >Challenges</input><br> 
+<input type="checkbox" value="checkbox5" >Open Source Community</input><br> 
+<input type="checkbox" value="checkbox6"  >Gitter help rooms</input><br> 
+<input type="checkbox" value="checkbox7" >Videos</input><br> 
+<input type="checkbox" value="checkbox8">City Meetups</input><br> 
+<input type="checkbox" value="checkbox9" >Wiki</input><br>
+<input type="checkbox" value="checkbox10" >Forum</input><br> 
+<input type="checkbox" value="checkbox11"   >Additional Courses</input><br> 
+        </div>  
+
+ <div class="group-form">  
+ <label for="bio"> Any comments or suggestions?</label> <textarea id="bio" rows="4" cols="30"  placeholder="Enter your Comment here..."></TEXTAREA>      
+   </div> 
+
+   <input type="submit" id="submit" value="Submit" />    
+
+
+
+   
+    </form> <P id="creator">This form created by <a href="mira selma">Mira Selma</a></P> 
+    </div> 
+  </body>
+</html>

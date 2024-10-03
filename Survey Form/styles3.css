@@ -1,0 +1,87 @@
+/*font google*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6 ;
+  background-color: #575791;
+  color:white;
+}
+.container {
+  max-width: 600px ;
+  margin: 4rem auto;
+  padding: .6rem;
+}
+h1 {
+font-size: 2.2rem;
+text-align: center;
+line-height: 1.2;
+padding: .6rem;
+}
+p {
+font-size: 1.1rem;
+text-align: center;
+margin-bottom:2rem;
+padding: .2rem;
+}
+form {
+background-color: #222242;
+padding: 3rem 2.5rem;
+border-radius: 7px;
+
+}
+.group-form {
+  margin-bottom: 1.5rem;
+  font-size:1.3rem;
+}
+.group-form label  {
+  display:block;
+  margin-bottom: .5rem;
+}
+#name,#email,#number,#dropdown,#bio,#submit {
+  width:95%;
+  padding: .6rem;
+  border-radius: 3px;
+  font-size:1.1rem;
+}
+
+ #sys {
+ display:block;
+ margin-bottom: 0rem;
+}
+input[type="radio"] {
+  display:inline;
+}
+#submit {
+  background-color:#33B864;
+  color:white;
+  padding: .7rem;
+  font-size:1.15rem;
+
+}
+#creator {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: 500;
+  
+ }
+a {
+  color:#ccc;
+}
+
+SPAN {
+  font-size: 1rem;
+
+}
+p {
+  font-style: italic;
+}
+
+
